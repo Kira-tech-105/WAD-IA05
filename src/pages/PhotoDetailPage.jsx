@@ -50,7 +50,7 @@ function PhotoDetailPage() {
 
         <p className="mb-1"><strong>ID:</strong> {photo.id}</p>
         <p className="mb-1"><strong>Original Size:</strong> {photo.width} × {photo.height}</p>
-        <p className="mb-1"><strong>Description:</strong> No description</p>
+        <p className="mb-1"><strong>Description:</strong> The image belongs to author {photo.author}.</p>
       </div>
     </div>
   );
